@@ -1,0 +1,28 @@
+.container {
+  padding: 10px;
+}
+
+.container .head {
+  height: 60px;
+  background-color: #fff;
+}
+
+.container .main {
+  margin-top: 10px;
+  min-height: 700px;
+  background-color: #fff;
+}
+
+.container .main .searchBtn {
+  margin-right: 75%;
+}
+
+.container .main .table .red {
+  color: #ff0033;
+}
+
+.container .footer {
+  text-align: center;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=comInfoList.css.map */

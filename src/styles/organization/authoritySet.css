@@ -1,0 +1,65 @@
+.wrapper-content {
+  padding: 20px;
+}
+
+.wrapper-content .row {
+  height: 300px;
+}
+
+.wrapper-content .row .white {
+  background-color: #fff;
+}
+
+.wrapper-content .row .white .title {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+  color: #222222;
+  line-height: 60px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.wrapper-content .row .white .layui-form {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.wrapper-content .row .white .layui-form .layui-form-item {
+  margin-bottom: 0;
+}
+
+.wrapper-content .row .white .layui-form .layui-form-item .layui-form-label {
+  width: 200px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.wrapper-content .row .white .layui-form .btnBox {
+  position: absolute;
+  bottom: -85px;
+  left: 30%;
+}
+
+.wrapper-content .row .white .layui-form .btnBox .bottomBtn {
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.wrapper-content .row .white .layui-form .btnBox .cancelBtn {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  color: #666666;
+}
+
+.wrapper-content .row .white .layui-form .btnBox .saveBtn {
+  background-color: #2883e0;
+  border: none;
+  color: #fff;
+}
+/*# sourceMappingURL=authoritySet.css.map */

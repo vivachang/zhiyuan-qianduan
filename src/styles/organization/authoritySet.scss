@@ -1,0 +1,55 @@
+.wrapper-content{
+    // background-color: #eff2f6;
+    padding: 20px;
+    .row{
+        height: 300px;
+        .white{
+            background-color: #fff;
+            .title{
+                width: 100%;
+                height: 60px;
+                border-bottom: 1px solid #eeeeee;
+                font-size: 15px;
+                color: #222222;
+                line-height: 60px;
+                padding-left: 20px;
+                font-weight: bold;
+            }
+            .layui-form{
+                width: 100%;
+                height: 200px;
+                margin-top: 20px;
+                position: relative;
+                .layui-form-item{
+                    margin-bottom: 0;
+                    .layui-form-label{
+                        width: 200px;
+                        font-size: 14px;
+                        color: #666666;
+                    }
+                }
+                .btnBox{
+                    position: absolute;
+                    bottom: -85px;
+                    left: 30%;
+                    .bottomBtn{
+                        width: 140px;
+                        height: 35px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                    }
+                    .cancelBtn{
+                        background-color: #fff;
+                        border: 1px solid #cccccc;
+                        color: #666666;
+                    }
+                    .saveBtn{
+                        background-color: #2883e0;
+                        border: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

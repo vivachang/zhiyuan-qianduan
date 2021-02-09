@@ -1,0 +1,73 @@
+.wrapper-content{
+    // background-color: #eff2f6;
+    padding: 20px;
+    .row{
+        height: 310px;
+        .white{
+            background-color: #fff;
+            .title{
+                width: 100%;
+                height: 60px;
+                border-bottom: 1px solid #eeeeee;
+                font-size: 15px;
+                color: #222222;
+                line-height: 60px;
+                padding-left: 20px;
+                font-weight: bold;
+            }
+            .layui-form{
+                width: 100%;
+                height: 250px;
+                margin-top: 35px;
+                position: relative;
+                .layui-form-item{
+                    .layui-form-label{
+                        width: 200px;
+                        font-size: 14px;
+                        color: #666666;
+                        i{
+                            font-size: 14px;
+                            color: #f2493b;
+                            margin-right: 5px;
+                        }
+                    }
+                    .layui-input-block{
+                        margin-left: 200px;
+                        min-height: 45px;
+                        line-height: 40px;
+                        .layui-input{
+                            width: 400px;
+                            height: 35px;
+                            border-color: #cccccc;
+                        }
+                        p {
+                            font-size: 15px;
+                            color: #222222;
+                        }
+                    }
+                }
+                .btnBox{
+                    position: absolute;
+                    bottom: -100px;
+                    left: 30%;
+                    .bottomBtn{
+                        width: 140px;
+                        height: 35px;
+                        border-radius: 5px;
+                        font-size: 16px;
+                    }
+                    .cancelBtn{
+                        background-color: #fff;
+                        border: 1px solid #cccccc;
+                        color: #666666;
+                    }
+                    .saveBtn{
+                        background-color: #2883e0;
+                        border: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

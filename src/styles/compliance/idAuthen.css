@@ -1,0 +1,311 @@
+@charset "UTF-8";
+.container .main {
+  /*待认证记录部分*/
+  padding: 10px;
+  min-height: 700px;
+  /*全部认证记录部分*/
+}
+
+.container .main .container-tobe {
+  min-height: 700px;
+  /*审核窗口*/
+}
+
+.container .main .container-tobe .searchBox .searchBtn {
+  margin-right: 55%;
+}
+
+.container .main .container-tobe .noresultBox {
+  text-align: center;
+}
+
+.container .main .container-tobe .noresultBox .noresult {
+  margin-top: 10%;
+}
+
+.container .main .container-tobe .noresultBox p {
+  font-size: 16px;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.container .main .container-tobe .footer {
+  text-align: center;
+}
+
+.container .main .container-tobe .container-check {
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.container .main .container-tobe .container-check .title {
+  width: 300px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  line-height: 35px;
+}
+
+.container .main .container-tobe .container-check .title .context {
+  font-weight: normal;
+}
+
+.container .main .container-tobe .container-check .title .idnum {
+  width: 220px;
+  display: block;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container .main .container-tobe .container-check .telenum {
+  margin-right: 100px;
+}
+
+.container .main .container-tobe .container-check .picBox {
+  width: 100%;
+  height: 210px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.container .main .container-tobe .container-check .picBox .title_pic {
+  width: 75px;
+  padding-left: 13px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+
+.container .main .container-tobe .container-check .picBox .picContent {
+  float: left;
+  text-align: center;
+  width: 220px;
+  margin-top: 10px;
+}
+
+.container .main .container-tobe .container-check .picBox .picContent img {
+  width: 200px;
+  height: 150px;
+}
+
+.container .main .container-tobe .container-check .form {
+  float: left;
+  width: 100%;
+}
+
+.container .main .container-tobe .container-check .btnBox {
+  margin-left: 30%;
+  margin-bottom: 0;
+  margin-top: 75px;
+}
+
+.container .main .container-tobe .container-check .btnBox .cancel {
+  margin-right: 50px;
+}
+
+.container .main .container-all {
+  min-height: 700px;
+  /*查看窗口*/
+  /*审核窗口*/
+  /*驳回窗口*/
+  /*操作记录窗口*/
+}
+
+.container .main .container-all .searchBox .searchBtn {
+  margin-right: 55%;
+}
+
+.container .main .container-all .red {
+  color: red;
+}
+
+.container .main .container-all .noresultBox {
+  text-align: center;
+}
+
+.container .main .container-all .noresultBox .noresult {
+  margin-top: 10%;
+}
+
+.container .main .container-all .noresultBox p {
+  font-size: 16px;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.container .main .container-all .footer {
+  text-align: center;
+}
+
+.container .main .container-all .container-viewCheck {
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.container .main .container-all .container-viewCheck .title {
+  width: 300px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  line-height: 35px;
+}
+
+.container .main .container-all .container-viewCheck .title .context {
+  font-weight: normal;
+}
+
+.container .main .container-all .container-viewCheck .title .idnum {
+  width: 220px;
+  display: block;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container .main .container-all .container-viewCheck .telenum {
+  margin-right: 100px;
+}
+
+.container .main .container-all .container-viewCheck .picBox {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.container .main .container-all .container-viewCheck .picBox .title_pic {
+  width: 75px;
+  padding-left: 13px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+
+.container .main .container-all .container-viewCheck .picBox .picContent {
+  float: left;
+  text-align: center;
+  width: 220px;
+  margin-top: 10px;
+}
+
+.container .main .container-all .container-viewCheck .picBox .picContent img {
+  width: 200px;
+  height: 150px;
+}
+
+.container .main .container-all .container-viewCheck .btnBox {
+  margin-left: 30%;
+  margin-bottom: 0;
+  margin-top: 75px;
+}
+
+.container .main .container-all .container-viewCheck .btnBox .cancel {
+  margin-right: 50px;
+}
+
+.container .main .container-all .container-check {
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.container .main .container-all .container-check .title {
+  width: 300px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  line-height: 35px;
+}
+
+.container .main .container-all .container-check .title .context {
+  font-weight: normal;
+}
+
+.container .main .container-all .container-check .title .idnum {
+  width: 220px;
+  display: block;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container .main .container-all .container-check .telenum {
+  margin-right: 100px;
+}
+
+.container .main .container-all .container-check .picBox {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+
+.container .main .container-all .container-check .picBox .title_pic {
+  width: 75px;
+  padding-left: 13px;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+
+.container .main .container-all .container-check .picBox .picContent {
+  float: left;
+  text-align: center;
+  width: 220px;
+  margin-top: 10px;
+}
+
+.container .main .container-all .container-check .picBox .picContent img {
+  width: 200px;
+  height: 150px;
+}
+
+.container .main .container-all .container-check .btnBox {
+  margin-left: 30%;
+  margin-bottom: 0;
+  margin-top: 75px;
+}
+
+.container .main .container-all .container-check .btnBox .cancel {
+  margin-right: 50px;
+}
+
+.container .main .container-all .container-reject {
+  min-height: 200px;
+}
+
+.container .main .container-all .container-reject .title {
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+.container .main .container-all .container-reject .title .name {
+  font-weight: normal;
+}
+
+.container .main .container-all .container-reject .btnBox {
+  padding-left: 30%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.container .main .container-all .container-reject .btnBox .cancel {
+  margin-right: 50px;
+}
+
+.container .main .container-all .container-reject .metion {
+  text-align: center;
+  color: red;
+}
+
+.container .main .container-all .container-operation .table {
+  width: 100%;
+  max-height: 260px;
+  overflow: auto;
+}
+
+.container .main .container-all .container-operation .el-table::before {
+  z-index: inherit;
+}
+/*# sourceMappingURL=idAuthen.css.map */

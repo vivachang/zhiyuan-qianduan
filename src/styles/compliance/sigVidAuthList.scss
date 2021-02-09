@@ -1,0 +1,17 @@
+.container{
+    .main{
+        min-height: 700px;
+        padding: 10px;
+        /*待认证记录部分*/
+        .container-tobe{
+            .searchBox{
+                .searchBtn{
+                    margin-right: 25%;
+                }
+            }
+        }
+    }
+    .footer{
+        text-align: center;
+    }
+}

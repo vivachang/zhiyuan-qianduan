@@ -1,0 +1,219 @@
+.wrapper-content{
+    // background-color: #eff2f6;
+    padding: 20px;
+    .searchBox{
+        background-color: #fff;
+        height: 130px;
+        margin-bottom: 20px;
+        .jur-top {
+            margin-top: 20px;
+            .juf-form {
+                padding: 0 20px;
+                .layui-form-item {
+                    margin-bottom: 20px;
+                    float: left;
+                    clear: none;
+                    .layui-form-label {
+                        width: 100px;
+                        box-sizing: border-box;
+                        padding: 7px 10px 0 0;
+                        text-align: right;
+                        color: #999;
+                        font-size: 16px;
+                    }
+                    .jur-line {
+                        color: #999;
+                        padding: 0 20px;
+                    }
+                    .jur-name-label {
+                        width: 100px;
+                    }
+                    .layui-input, .layui-select, .layui-textarea {
+                        height: 34px;
+                        border-color: #ccc!important;
+                        &:focus {
+                            border-color: #2883e0 !important;
+                        }
+                    }
+                    .layui-form-checkbox[lay-skin=primary] {
+                        margin-top: 0;
+                    }
+                    .layui-form-checkbox {
+                        margin-top: 0;
+                    }
+                    .layui-input-inline {
+                        width: 156px;
+                        margin-right: 0;
+                    }
+                    .layui-input-block {
+                        display: inline-block;
+                        min-height: 34px;
+                        margin-left: 0;
+                        margin-right: 20px;
+                    }
+                    .layui-inline {
+                        vertical-align: middle;
+                        margin-bottom: 0;
+                        margin-right: 0;
+                    }
+                    ul {
+                        width: 820px;
+                        margin-left: 35px;
+                        li {
+                            float: left;
+                            width: 24.5%;
+                            height: 34px;
+                            line-height: 34px;
+                            border: 1px solid #ccc!important;
+                            margin-right: 30px;
+                            &:focus {
+                                border: 1px solid #2883e0!important;
+                            }
+                            a {
+                                font-size: 15px;
+                                color: #222222;
+                                text-decoration: none;
+                                &:focus {
+                                    text-decoration: none;
+                                }
+                            }
+
+                            position: relative;
+                            .tag-a.show + .filter-time {
+                                display: block;
+                            }
+                            .filter-time {
+                                display: none;
+                                line-height: normal;
+                                position: absolute;
+                                z-index: 88;
+                                left: 0px;
+                                top: 44px;
+                                width: 330px;
+                                box-sizing: border-box;
+                                border: 1px solid #ccc;
+                                background-color: #fff;
+                                padding: 15px 9px;
+                                .choose-icon {
+                                    a {
+                                        font-size: 14px;
+                                        margin-bottom: 2px;
+                                        margin-right: 4px;
+                                        color: #666;
+                                        padding: 0 8px;
+                                        height: 24px;
+                                        display: inline-block;
+                                        line-height: 24px;
+                                        &:hover, &.active {
+                                            background-color: #2883e0;
+                                            color: #fff;
+                                            border-radius: 2px;
+                                        }
+                                        // 自定义
+                                        &:last-of-type {
+                                            &.active ~ .layui-inline {
+                                                display: block;
+                                            }
+                                        }
+                                    }
+                                    .choose-wait {
+                                        margin-left: 53px;
+                                    }
+                                    .layui-inline {
+                                        display: none;
+                                        margin-top: 6px;
+                                        color: #666;
+                                        height: 23px;
+                                        overflow: hidden;
+                                        input {
+                                            width: 96px;
+                                            color: #666;
+                                            font-size: 14px;
+                                            border: 1px solid #ccc;
+                                            height: 22px;
+                                            display: inline-block;
+                                        }
+                                        button {
+                                            border: 0;
+                                            color: #2883e0;
+                                            background-color: transparent;
+                                            font-size: 14px;
+                                            vertical-align: "-webkit-baseline-middle";
+                                            margin-left: 10px;
+                                            margin-bottom: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            .filter-width{
+                                width: 200px;
+                            }
+                            .filter-status{
+                                display: block;
+                            }
+                        }
+                        .choose-title {
+                            padding-left: 8px;
+                        }
+                    }
+                    button {
+                        width: 100px;
+                        background-color: #2883e0;
+                        color: #fff;
+                        border-radius: 5px;
+                        border: none;
+                        margin-left: 20px;
+                    }
+                }
+                .examine-handle{
+                    line-height: 39px;
+                }
+            }
+        }
+        .jur-depart {
+            .juf-form {
+                .layui-form-item {
+                    .layui-input-block {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+    table{
+        background-color: #fff;
+        tr {
+            height: 60px;
+            text-align: center;
+            vertical-align: inherit;
+            &:last-of-type {
+                border-bottom: none;
+            }
+            &:nth-child(2n+1) {
+                background-color: #fcfcfc;
+            }
+            &:hover {
+                background-color: #f3f3f3;
+            }
+        }
+        .t_head{
+            td {
+                font-size: 15px;
+                color: #777777;
+                line-height: 43px;
+            }
+        }
+        .t_body{
+            td {
+                font-size: 15px;
+                color: #222222;
+                line-height: 43px;
+            }
+        }
+    }
+    .block{
+        float: right;
+        margin-bottom: 25px;
+    }
+}
+

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.container .main {
+  min-height: 700px;
+  padding: 10px;
+  /*待认证记录部分*/
+}
+
+.container .main .container-tobe .searchBox .searchBtn {
+  margin-right: 25%;
+}
+
+.container .footer {
+  text-align: center;
+}
+/*# sourceMappingURL=sigVidAuthList.css.map */

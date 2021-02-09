@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,AACI,UADM,CACN,KAAK,CAAA;EACD,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,kBAAkB;CAQrB;;AAZL,AAOgB,UAPN,CACN,KAAK,CAID,eAAe,CACX,UAAU,CACN,UAAU,CAAA;EACN,YAAY,EAAE,GAAG;CACpB;;AATjB,AAaI,UAbM,CAaN,OAAO,CAAA;EACH,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "sigVidAuthList.scss"
+    ],
+    "names": [],
+    "file": "sigVidAuthList.css"
+}

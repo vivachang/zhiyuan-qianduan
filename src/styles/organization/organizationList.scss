@@ -1,0 +1,125 @@
+.container{
+    padding: 10px;
+    .main{
+        min-height: 700px;
+        overflow: hidden;
+        background-color: #fff;
+        .main_title{
+            width: 100%;
+            height: 30px;
+            border-bottom: 1px solid #eeeeee;
+            font-size: 16px;
+            color: #222222;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+        .searchBox{
+            padding-left: 20px;
+            margin-top: 30px;
+            .filter{
+                margin-right: 30%;
+            }
+            .select_two{
+                margin-left: 20px;
+            }
+        }
+        .orgList{
+            width: 100%;
+            height: 610px;
+            overflow: hidden;
+            padding-top: 20px;
+            .orgBox{
+                width: 100%;
+                height: 130px;
+                border: 1px solid #eeeeee;
+                margin-bottom: 20px;
+                padding: 10px;
+                .leftContent{
+                    width: 30%;
+                    height: 100%;
+                    float: left;
+                    border-right: 1px solid #eeeeee;
+                    p{
+                        margin: 0;
+                        text-align: center;
+                        line-height: 35px;
+                    }
+                    .orgName{
+                        max-width:600px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        font-size: 18px;
+                        margin-top: 5px;
+                        font-weight: bold;
+                    }
+                    .stateTitle{
+                        font-size: 16px;
+                        .blue{
+                            color: #409EFF;
+                        }
+                        .red{
+                            color: red;
+                        }
+                    }
+                    .time{
+                        font-size: 16px;
+                    }
+                }
+                .rightContent{
+                    width: 70%;
+                    height: 100%;
+                    float: left;
+                    .operBox{
+                        float: left;
+                        width: 33%;
+                        height: 100%;
+                        text-align: center;
+                        padding-top: 3%;
+                        border-right: 1px solid #eeeeee;
+                        &:last-child{
+                            border-right: none;
+                        }
+                        .operTitle{
+                            font-size: 16px;
+                        }
+                        .operText{
+                            font-size: 16px;
+                            color: #409EFF;
+                        }
+                        .edit{
+                            margin-left: 10px;
+                        }
+                        .red{
+                            background-color: red;
+                            border: none;
+                        }
+                        .redText{
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            text-align: center;
+        }
+    }
+    
+    /* 弹窗样式 */
+    p{
+        text-align: center;
+        line-height: 35px;
+    }
+    .curname{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .curoper{
+        font-size: 18px;
+    }
+    .curmetion{
+        font-size: 14px;
+        color: red;
+    }
+}

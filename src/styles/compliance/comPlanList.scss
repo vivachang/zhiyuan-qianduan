@@ -1,0 +1,44 @@
+.container{
+    padding: 10px;
+    .main{
+        min-height: 800px;
+        background-color: #ffffff;
+        .searchBox{
+            padding-left: 40px;
+        }
+        .orgList{
+            margin-top: 20px;
+            .red{
+                color: red;
+            }
+        }
+        .noresultBox{
+            text-align: center;
+            .noresult{
+                margin-top: 15%;
+            }
+            p{
+                font-size: 16px;
+                color: #666666;
+                margin-top: 10px;
+            }
+        }
+    }
+    .dialog{
+        p{
+            font-size: 16px;
+            margin: 0;
+            line-height: 25px;
+            padding: 10px;
+            text-align: center;
+        }
+        .planName{
+            .curName{
+                font-weight: bold;
+            }
+        }
+        .curTips{
+            color: red; 
+        }
+    }
+}

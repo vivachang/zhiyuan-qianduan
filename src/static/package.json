@@ -1,0 +1,19 @@
+{
+  "name": "gulp-task",
+  "version": "1.0.0",
+  "description": "imgSprite gulp task",
+  "main": "gulpfile",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thisTom",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.9.0",
+    "handlebars": "^4.0.11"
+  },
+  "dependencies": {
+    "art-template": "^4.12.2"
+  }
+}

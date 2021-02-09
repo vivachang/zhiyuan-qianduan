@@ -1,0 +1,244 @@
+@charset "UTF-8";
+p {
+  margin: 0;
+}
+
+.container {
+  padding: 10px;
+  /** 提示框样式（两个提示框统一） */
+  /** 推迟处理弹框样式 */
+  /** 审核弹框样式 */
+}
+
+.container .head {
+  height: 60px;
+  background-color: #fff;
+}
+
+.container .main {
+  min-height: 700px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.container .main .leftContent {
+  width: 60%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.container .main .leftContent .label {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 38px;
+  width: 400px;
+  margin-top: 10px;
+  padding-left: 40px;
+}
+
+.container .main .leftContent .label .context {
+  font-weight: normal;
+}
+
+.container .main .leftContent .idPhoto {
+  width: 350px;
+  min-height: 100px;
+}
+
+.container .main .leftContent .idPhoto .front, .container .main .leftContent .idPhoto .back {
+  width: 200px;
+  height: 120px;
+  border: 1px solid #666666;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.container .main .leftContent .idPhoto .front_img, .container .main .leftContent .idPhoto .back_img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .main .leftContent .signPhoto {
+  width: 200px;
+  min-height: 120px;
+  border: 1px solid #666666;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.container .main .leftContent .signPhoto .sign_img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .main .leftContent .videiCall {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 400px;
+  height: 700px;
+  border: 1px dashed #666666;
+}
+
+.container .main .leftContent .videiCall .videoBox {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  z-index: 999;
+}
+
+.container .main .leftContent .videiCall .videoBox .video {
+  width: 100%;
+  height: 75%;
+}
+
+.container .main .leftContent .videiCall .otherBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 700px;
+}
+
+.container .main .leftContent .videiCall .otherBox .video {
+  width: 100%;
+  height: 75%;
+}
+
+.container .main .leftContent .button_end {
+  position: absolute;
+  top: 100px;
+  right: 65px;
+}
+
+.container .main .leftContent .button {
+  position: absolute;
+  top: 280px;
+  right: 35px;
+}
+
+.container .main .leftContent .button_show {
+  position: absolute;
+  top: 350px;
+  right: 65px;
+}
+
+.container .main .leftContent .signText {
+  display: inline;
+  font-size: 14px;
+  position: absolute;
+  top: 55%;
+  left: 85%;
+}
+
+.container .main .leftContent .red {
+  color: red;
+}
+
+.container .main .rightContent {
+  width: 40%;
+  height: 660px;
+  float: left;
+  padding: 10px;
+}
+
+.container .main .rightContent .title {
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.container .main .rightContent .op_btn {
+  margin-top: 30px;
+}
+
+.container .main .rightContent .op_btn_one {
+  margin-left: 50px;
+}
+
+.container .main .rightContent .op_btn_two {
+  width: 100px;
+  margin-left: 130px;
+}
+
+.container .main .rightContent .op_btn_three {
+  width: 100px;
+  margin-left: 130px;
+}
+
+.container .metionPic {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+
+.container .metionPic .warning {
+  width: 100px;
+  height: 100px;
+}
+
+.container .metionContext {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.container .metionContext p {
+  text-align: center;
+  line-height: 35px;
+}
+
+.container .container-delay .searchBox {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.container .container-delay .searchBox .cancel {
+  margin-right: 50px;
+}
+
+.container .container-check .content {
+  min-height: 250px;
+}
+
+.container .container-check .content .videoBox {
+  width: 45%;
+  height: 200px;
+  float: left;
+  margin-left: 24px;
+}
+
+.container .container-check .content .videoBox .video {
+  width: 100%;
+  height: 100%;
+}
+
+.container .container-check .content .signBox {
+  width: 45%;
+  height: 190px;
+  border: 1px solid #666666;
+  float: left;
+  margin-left: 34px;
+  margin-top: 10px;
+}
+
+.container .container-check .content .signBox .sign {
+  width: 100%;
+  height: 100%;
+}
+
+.container .container-check .content .message {
+  color: red;
+  text-align: center;
+  line-height: 35px;
+}
+
+.container .container-check .searchBox {
+  margin-left: 260px;
+}
+
+.container .container-check .searchBox .cancel {
+  margin-right: 50px;
+}
+/*# sourceMappingURL=authen.css.map */

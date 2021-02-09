@@ -1,0 +1,82 @@
+.container{
+    padding: 10px;
+    .head{
+        height: 60px;
+        background-color: #fff;
+    }
+    .main{
+        min-height: 700px;
+        background-color: #fff;
+        margin-top: 10px;
+        .infoBox{
+            line-height: 60px;
+            padding-left: 40px;
+            .title{
+                font-weight: bold;
+                margin-right: 100px;
+                .context{
+                    font-weight: normal;
+                }
+            }
+        }
+        .table{
+            margin-top: 20px;
+        }
+    }
+    .footer{
+        text-align: center;
+        margin-top: 10px;
+    }
+    /** 测评详情部分 */
+    .container-detial{
+        p,h4 {
+            margin: 0;
+        }
+        .head{
+            width: 100%;
+            height: 55px;
+            border-bottom: 1px solid #6e6e6e;
+            p{
+                line-height: 25px;
+                font-size: 16px;
+                font-weight: bold;
+                span {
+                    font-weight: normal;
+                }
+            }
+            .time,.result{
+                float: left;
+            }
+            .result{
+                margin-left: 150px;
+            }
+        }
+        .content{
+            margin-top: 10px;
+            .title{
+                font-size: 16px;
+            }
+            .testBox{
+                margin-top: 10px;
+                padding-left: 20px;
+                h4{
+                    line-height: 30px;
+                    font-size: 16px;
+                }
+                .test{
+                    .testTitle{
+                        font-size: 16px;
+                    }
+                    p {
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    /** 告知书部分 */
+    .content{
+        padding: 20px;
+    }
+}

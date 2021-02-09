@@ -1,0 +1,20 @@
+.container {
+  padding: 10px;
+}
+
+.container .head {
+  height: 60px;
+  background-color: #fff;
+}
+
+.container .main {
+  margin-top: 10px;
+  min-height: 700px;
+  background-color: #fff;
+}
+
+.container .footer {
+  text-align: center;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=riskQuestList.css.map */

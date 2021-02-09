@@ -1,0 +1,100 @@
+.container {
+  padding: 10px;
+}
+
+.container .main {
+  min-height: 700px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.container .main .main_title {
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 16px;
+  color: #222222;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.container .main .orgForm {
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.container .main .orgForm .input {
+  width: 30%;
+}
+
+.container .main .orgForm .licence {
+  text-align: center;
+}
+
+.container .main .orgForm .licence .uploadBox {
+  width: 200px;
+  margin-top: 30px;
+}
+
+.container .main .orgForm .licence .uploadBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .main .orgForm .idPic .idBox {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.container .main .orgForm .idPic .idBox .content {
+  width: 200px;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.container .main .orgForm .idPic .idBox .content img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .main .orgForm .uploadContent {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #666666;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.container .main .orgForm .uploadBtnBox {
+  position: relative;
+  width: 100px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #409EFF;
+  border: none;
+  text-align: center;
+  margin: 0;
+  margin-left: 60px;
+}
+
+.container .main .orgForm .uploadBtnBox .uploadBtn {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 40px;
+}
+
+.container .main .orgForm .btnBox {
+  margin-top: 50px;
+  margin-left: 35%;
+}
+
+.container .main .orgForm .btnBox .cancel {
+  margin-right: 80px;
+  width: 90px;
+}
+/*# sourceMappingURL=newOrganization.css.map */

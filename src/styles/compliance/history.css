@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.container {
+  padding: 10px;
+  /** 测评详情部分 */
+  /** 告知书部分 */
+}
+
+.container .head {
+  height: 60px;
+  background-color: #fff;
+}
+
+.container .main {
+  min-height: 700px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.container .main .infoBox {
+  line-height: 60px;
+  padding-left: 40px;
+}
+
+.container .main .infoBox .title {
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.container .main .infoBox .title .context {
+  font-weight: normal;
+}
+
+.container .main .table {
+  margin-top: 20px;
+}
+
+.container .footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container .container-detial p, .container .container-detial h4 {
+  margin: 0;
+}
+
+.container .container-detial .head {
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #6e6e6e;
+}
+
+.container .container-detial .head p {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container .container-detial .head p span {
+  font-weight: normal;
+}
+
+.container .container-detial .head .time, .container .container-detial .head .result {
+  float: left;
+}
+
+.container .container-detial .head .result {
+  margin-left: 150px;
+}
+
+.container .container-detial .content {
+  margin-top: 10px;
+}
+
+.container .container-detial .content .title {
+  font-size: 16px;
+}
+
+.container .container-detial .content .testBox {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.container .container-detial .content .testBox h4 {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.container .container-detial .content .testBox .test .testTitle {
+  font-size: 16px;
+}
+
+.container .container-detial .content .testBox .test p {
+  line-height: 28px;
+}
+
+.container .content {
+  padding: 20px;
+}
+/*# sourceMappingURL=history.css.map */

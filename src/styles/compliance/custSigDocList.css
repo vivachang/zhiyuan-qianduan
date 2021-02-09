@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.container .main {
+  min-height: 700px;
+  padding: 10px;
+  /*证券投资顾问业务服务协议部分*/
+  /*投资者确认书部分*/
+  /*风险揭示书部分*/
+}
+
+.container .main .searchBtn {
+  margin-right: 15px;
+}
+
+.container .main .container-inveService .searchBtn {
+  margin-right: 20%;
+}
+
+.container .main .container-inveService p {
+  margin: 0;
+}
+
+.container .main .container-inveService .detailsBox {
+  height: 600px;
+}
+
+.container .main .container-inveService .detailsBox .head {
+  height: 50px;
+  border-bottom: 1px solid #666;
+}
+
+.container .main .container-inveService .detailsBox .head h3 {
+  float: left;
+  margin: 0;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.container .main .container-inveService .detailsBox .head .button {
+  float: right;
+}
+
+.container .main .container-inveService .detailsBox .content {
+  padding: 20px;
+  min-height: 85px;
+}
+
+.container .main .container-inveService .detailsBox .content p {
+  float: left;
+  width: 430px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.container .main .container-inveService .detailsBox .content .signBox {
+  float: left;
+  width: 100%;
+  height: 200px;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+.container .main .container-inveService .detailsBox .content .signBox .img {
+  width: 300px;
+  height: 200px;
+}
+
+.container .main .container-inveService .detailsBox .content .signBox .company {
+  margin-left: 80px;
+}
+
+.container .main .container-inveService .downloadtxt {
+  color: #409EFF;
+}
+
+.container .main .container-inveService .content {
+  padding: 20px;
+}
+
+.container .main .container-inveService .button_one {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+
+.container .main .container-inveConfirm {
+  min-height: 700px;
+}
+
+.container .main .container-inveConfirm .searchBtn {
+  margin-right: 20%;
+}
+
+.container .main .container-inveRisk {
+  min-height: 700px;
+}
+
+.container .main .container-inveRisk .searchBtn {
+  margin-right: 40%;
+}
+
+.container .footer {
+  text-align: center;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=custSigDocList.css.map */

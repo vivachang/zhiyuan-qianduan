@@ -1,0 +1,141 @@
+@charset "UTF-8";
+.wrapper-content {
+  padding: 20px;
+  /**审核弹窗样式*/
+}
+
+.wrapper-content .row {
+  height: 565px;
+}
+
+.wrapper-content .row .white {
+  background-color: #fff;
+}
+
+.wrapper-content .row .white .title {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+  color: #222222;
+  line-height: 60px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.wrapper-content .row .white .section {
+  width: 100%;
+  height: 480px;
+  margin-top: 25px;
+}
+
+.wrapper-content .row .white .section .head_title {
+  display: inline-block;
+  width: 250px;
+  font-size: 15px;
+  color: #808080;
+  line-height: 35px;
+  text-align: right;
+}
+
+.wrapper-content .row .white .section .content {
+  display: inline-block;
+  width: 240px;
+  line-height: 35px;
+  font-size: 15px;
+  color: #222222;
+}
+
+.wrapper-content .row .white .section .red {
+  color: #f2493b;
+}
+
+.wrapper-content .row .white .section .business, .wrapper-content .row .white .section .corporation {
+  height: 150px;
+}
+
+.wrapper-content .row .white .section .business span, .wrapper-content .row .white .section .business img, .wrapper-content .row .white .section .corporation span, .wrapper-content .row .white .section .corporation img {
+  float: left;
+}
+
+.wrapper-content .row .white .section .business .businessPic, .wrapper-content .row .white .section .business .corporationPic, .wrapper-content .row .white .section .corporation .businessPic, .wrapper-content .row .white .section .corporation .corporationPic {
+  width: 200px;
+  height: 100%;
+  margin-left: 15px;
+}
+
+.wrapper-content .row .white .section .corporation {
+  margin-top: 150px;
+}
+
+.wrapper-content .operation {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.wrapper-content .operation button {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.wrapper-content .operation .cancel {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  color: #666666;
+  margin-right: 15px;
+}
+
+.wrapper-content .operation .examine {
+  background-color: #2883e0;
+  border: none;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.examineBox {
+  height: 400px;
+  overflow: hidden;
+}
+
+.examineBox .layui-form {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.examineBox .layui-form .layui-form-label {
+  width: 100px;
+  padding: 7px 0;
+  font-size: 15px;
+  color: #666666;
+}
+
+.examineBox .layui-form .layui-input-block {
+  width: 250px;
+}
+
+.examineBox .layui-form .layui-input-block .layui-problem-list {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.examineBox .layui-form .layui-input-block .layui-problem-list .layui-problem-item {
+  margin: 5px 5px;
+  min-width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid gray;
+}
+/*# sourceMappingURL=orgApplicationDetail.css.map */

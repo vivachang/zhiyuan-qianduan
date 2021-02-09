@@ -1,0 +1,131 @@
+@charset "UTF-8";
+.container {
+  padding: 10px;
+  /*视频查看部分*/
+  /*驳回部分*/
+}
+
+.container .head {
+  height: 60px;
+  background-color: #fff;
+}
+
+.container .main {
+  margin-top: 10px;
+  min-height: 700px;
+  background-color: #fff;
+}
+
+.container .main .leftContent {
+  width: 65%;
+  height: 700px;
+  float: left;
+}
+
+.container .main .leftContent .topContent {
+  width: 100%;
+  height: 50%;
+  padding-left: 40px;
+}
+
+.container .main .leftContent .topContent .custInfoBox {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.container .main .leftContent .topContent .custInfoBox .title {
+  margin: 0;
+  line-height: 60px;
+}
+
+.container .main .leftContent .topContent .custInfoBox .custContent {
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.container .main .leftContent .topContent .custInfoBox .custContent .custContext {
+  font-weight: normal;
+}
+
+.container .main .leftContent .topContent .custSignBox {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.container .main .leftContent .topContent .custSignBox .title {
+  margin: 0;
+  line-height: 60px;
+}
+
+.container .main .leftContent .topContent .custSignBox .signBox {
+  width: 100%;
+  height: 80%;
+  padding-left: 30px;
+}
+
+.container .main .leftContent .topContent .custSignBox .signBox .signPic {
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 85%;
+  height: 100%;
+}
+
+.container .main .leftContent .bottomContent {
+  width: 100%;
+  height: 50%;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.container .main .leftContent .bottomContent .title {
+  margin: 0;
+  line-height: 60px;
+}
+
+.container .main .leftContent .bottomContent .red {
+  color: red;
+}
+
+.container .main .rightContent {
+  width: 35%;
+  height: 700px;
+  float: left;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.container .main .rightContent .title {
+  margin: 0;
+  line-height: 60px;
+}
+
+.container .videoBox {
+  width: 100%;
+  height: 400px;
+}
+
+.container .videoBox .video {
+  width: 100%;
+  height: 100%;
+}
+
+.container .container-reject .btnBox {
+  padding-left: 18%;
+}
+
+.container .container-reject .btnBox .btn_one {
+  margin-right: 10%;
+}
+
+.container .container-reject .metion {
+  text-align: center;
+  color: red;
+  margin: 0;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=viewAuthDetail.css.map */

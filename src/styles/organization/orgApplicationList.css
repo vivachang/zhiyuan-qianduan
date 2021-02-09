@@ -1,0 +1,246 @@
+.wrapper-content {
+  padding: 20px;
+}
+
+.wrapper-content .searchBox {
+  background-color: #fff;
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.wrapper-content .searchBox .jur-top {
+  margin-top: 20px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form {
+  padding: 0 20px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item {
+  margin-bottom: 20px;
+  float: left;
+  clear: none;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-form-label {
+  width: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 7px 10px 0 0;
+  text-align: right;
+  color: #999;
+  font-size: 16px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .jur-line {
+  color: #999;
+  padding: 0 20px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .jur-name-label {
+  width: 100px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-input, .wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-select, .wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-textarea {
+  height: 34px;
+  border-color: #ccc !important;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-input:focus, .wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-select:focus, .wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-textarea:focus {
+  border-color: #2883e0 !important;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-form-checkbox[lay-skin=primary] {
+  margin-top: 0;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-form-checkbox {
+  margin-top: 0;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-input-inline {
+  width: 156px;
+  margin-right: 0;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-input-block {
+  display: inline-block;
+  min-height: 34px;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item .layui-inline {
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul {
+  width: 820px;
+  margin-left: 35px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li {
+  float: left;
+  width: 24.5%;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #ccc !important;
+  margin-right: 30px;
+  position: relative;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li:focus {
+  border: 1px solid #2883e0 !important;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li a {
+  font-size: 15px;
+  color: #222222;
+  text-decoration: none;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li a:focus {
+  text-decoration: none;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .tag-a.show + .filter-time {
+  display: block;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time {
+  display: none;
+  line-height: normal;
+  position: absolute;
+  z-index: 88;
+  left: 0px;
+  top: 44px;
+  width: 330px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 15px 9px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon a {
+  font-size: 14px;
+  margin-bottom: 2px;
+  margin-right: 4px;
+  color: #666;
+  padding: 0 8px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon a:hover, .wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon a.active {
+  background-color: #2883e0;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon a:last-of-type.active ~ .layui-inline {
+  display: block;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon .choose-wait {
+  margin-left: 53px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon .layui-inline {
+  display: none;
+  margin-top: 6px;
+  color: #666;
+  height: 23px;
+  overflow: hidden;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon .layui-inline input {
+  width: 96px;
+  color: #666;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  height: 22px;
+  display: inline-block;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-time .choose-icon .layui-inline button {
+  border: 0;
+  color: #2883e0;
+  background-color: transparent;
+  font-size: 14px;
+  vertical-align: "-webkit-baseline-middle";
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-width {
+  width: 200px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul li .filter-status {
+  display: block;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item ul .choose-title {
+  padding-left: 8px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .layui-form-item button {
+  width: 100px;
+  background-color: #2883e0;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+}
+
+.wrapper-content .searchBox .jur-top .juf-form .examine-handle {
+  line-height: 39px;
+}
+
+.wrapper-content .searchBox .jur-depart .juf-form .layui-form-item .layui-input-block {
+  width: 200px;
+}
+
+.wrapper-content table {
+  background-color: #fff;
+}
+
+.wrapper-content table tr {
+  height: 60px;
+  text-align: center;
+  vertical-align: inherit;
+}
+
+.wrapper-content table tr:last-of-type {
+  border-bottom: none;
+}
+
+.wrapper-content table tr:nth-child(2n+1) {
+  background-color: #fcfcfc;
+}
+
+.wrapper-content table tr:hover {
+  background-color: #f3f3f3;
+}
+
+.wrapper-content table .t_head td {
+  font-size: 15px;
+  color: #777777;
+  line-height: 43px;
+}
+
+.wrapper-content table .t_body td {
+  font-size: 15px;
+  color: #222222;
+  line-height: 43px;
+}
+
+.wrapper-content .block {
+  float: right;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=orgApplicationList.css.map */

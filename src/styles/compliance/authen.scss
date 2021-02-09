@@ -1,0 +1,208 @@
+p{
+    margin: 0;
+}
+.container{
+    padding: 10px;
+    .head{
+        height: 60px;
+        background-color: #fff;
+    }
+    .main{
+        min-height: 700px;
+        background-color: #fff;
+        margin-top: 10px;
+        .leftContent{
+            width: 60%;
+            height: 100%;
+            float: left;
+            position: relative;
+            .label{
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 38px;
+                width: 400px;
+                margin-top: 10px;
+                padding-left: 40px;
+                .context{
+                    font-weight: normal;
+                }
+            }
+            .idPhoto{
+                width: 350px;
+                min-height: 100px;
+                .front,.back{
+                    width: 200px;
+                    height: 120px;
+                    border: 1px solid #666666;
+                    margin-left: 120px;
+                    margin-bottom: 10px;
+                }
+                .front_img,.back_img,{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signPhoto{
+                width: 200px;
+                min-height: 120px;
+                border: 1px solid #666666;
+                margin-left: 120px;
+                margin-bottom: 10px;
+                .sign_img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .videiCall{
+                position: absolute;
+                top: 0;
+                left: 400px;
+                width: 400px;
+                height: 700px;
+                border: 1px dashed #666666;
+                .videoBox{
+                    position: absolute;
+                    bottom: -30px;
+                    right: 0;
+                    width: 200px;
+                    height: 200px;
+                    z-index: 999;
+                    .video{
+                        width: 100%;
+                        height: 75%;
+                    }
+                }
+                .otherBox{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 400px;
+                    height: 700px;
+                    .video{
+                        width: 100%;
+                        height: 75%;
+                    }
+                }
+            }
+            .button_end{
+                position: absolute;
+                top: 100px;
+                right: 65px;
+            }
+            .button{
+                position: absolute;
+                top: 280px;
+                right: 35px;
+            }
+            .button_show{
+                position: absolute;
+                top: 350px;
+                right: 65px;
+            }
+            .signText{
+                display: inline;
+                font-size: 14px;
+                position: absolute;
+                top: 55%;
+                left: 85%;
+            }
+            .red{
+                color: red;
+            }
+        }
+        .rightContent{
+            width: 40%;
+            height: 660px;
+            float: left;
+            padding: 10px;
+            .title{
+                line-height: 35px;
+                font-weight: bold;
+            }
+            .op_btn{
+                margin-top: 30px;
+            }
+            .op_btn_one{
+                margin-left: 50px;
+            }
+            .op_btn_two{
+                width: 100px;
+                margin-left: 130px;
+            }
+            .op_btn_three{
+                width: 100px;
+                margin-left: 130px;
+            }
+        }
+    }
+
+    /** 提示框样式（两个提示框统一） */
+    .metionPic{
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        .warning{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .metionContext{
+        margin-left: 100px;
+        margin-top: 20px;
+        p{
+            text-align: center;
+            line-height: 35px;
+        }
+    }
+
+    /** 推迟处理弹框样式 */
+    .container-delay{
+        .searchBox{
+            margin-left: 160px;
+            margin-top: 50px;
+            .cancel{
+                margin-right: 50px;
+            }
+        }
+    }
+
+    /** 审核弹框样式 */
+    .container-check{
+        .content{
+            min-height: 250px;
+            .videoBox{
+                width: 45%;
+                height: 200px;
+                float: left;
+                margin-left: 24px;
+                .video{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signBox{
+                width: 45%;
+                height: 190px;
+                border: 1px solid #666666;
+                float: left;
+                margin-left: 34px;
+                margin-top: 10px;
+                .sign{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .message{
+                color: red;
+                text-align: center;
+                line-height: 35px;
+            }
+        }
+        .searchBox{
+            margin-left: 260px;
+            .cancel{
+                margin-right: 50px;
+            }
+        }
+    }
+}
